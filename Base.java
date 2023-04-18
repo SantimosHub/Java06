@@ -40,17 +40,5 @@ public class Base {
     }
 
 
-    public String toString() {
-        return (String.format("""
-                        Производитель: %s
-                        Модель: %s
-                        ОЗУ: %d
-                        Жесткий диск: %d
-                        ОС: %s
-                        Цвет: %s
-
-                        """,
-                this.brand, this.model, this.ram, this.hardDisk, this.opSystem, this.color));
-    }
 }
 
